@@ -1,3 +1,5 @@
+# РљР°РјРµРЅС‚
+
 from tkinter import*
 import colorsys
 #from PIL import ImageGrab
@@ -52,7 +54,7 @@ canvas.bind("<ButtonRelease-1>", lambda e: MotionEvent(e, 1))
 canvas.bind("<ButtonRelease-3>", lambda e: MotionEvent(e, 3))
 canvas.place(x = 0, y = 42, width = 500, height = 420)
 
-buttonC = Button(root, text = "очистить", command = buttonCClick)
+buttonC = Button(root, text = "Г®Г·ГЁГ±ГІГЁГІГј", command = buttonCClick)
 buttonC.place(x = 0, y = 0, width = 80, height = 41)
 
 var = IntVar()
